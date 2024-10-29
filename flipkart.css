@@ -1,0 +1,213 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(232, 232, 232, 0.719);
+}
+nav {
+  position: sticky;
+  top: 0;
+  padding: 1px;
+  height: 70px;
+  background-color: white;
+}
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav ul li:hover {
+  font-weight: 600;
+}
+.menu p {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+}
+.menu {
+  display: grid;
+  grid-template-rows: 1, 200px;
+  grid-template-columns: repeat(9, auto);
+  margin: 15px;
+}
+.menuItems {
+  background-color: white;
+}
+.add1 {
+  margin: 15px;
+  display: grid;
+  grid-template-rows: 1;
+  grid-template-columns: repeat(5, 100%);
+  grid-auto-flow: column;
+  overflow-x: auto;
+}
+.smpa h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+}
+.smpa p {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+}
+.spprice p {
+  font-weight: 700;
+  margin: -10px;
+}
+.spname {
+  margin: -10px;
+}
+.smpa {
+  background-color: white;
+  margin: 15px;
+}
+.smartphoneadd {
+  display: grid;
+  grid-template-rows: 1;
+  grid-template-columns: repeat(8, auto);
+  grid-auto-flow: column;
+  overflow-x: auto;
+  gap: 30px;
+  margin: 10px;
+}
+.spadd {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid rgb(173, 171, 171);
+  border-radius: 5px;
+}
+.spadd:hover {
+  background-color: rgb(236, 236, 236);
+}
+.resnav {
+  display: none;
+}
+/* ----------------------------footer */
+footer {
+  margin-top: 30px;
+  background-color: rgba(40, 116, 240, 255);
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+}
+.footer {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 305px;
+}
+.footer h1 {
+  font-size: 20px;
+}
+.support {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+}
+.support li {
+  list-style: none;
+}
+.supportul {
+  margin-left: -50px;
+  margin-top: 0px;
+}
+.about li {
+  list-style: none;
+}
+.footerIcons {
+  display: flex;
+  gap: 20px;
+}
+.last {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  gap: 200px;
+}
+.last button {
+  margin-left: 200px;
+  background-image: url(./image/india.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border: solid black;
+  height: 50px;
+  width: 130px;
+}
+hr {
+  width: 90%;
+}
+@media screen and (max-width: 850px) {
+  nav {
+    display: none;
+  }
+  .resnav {
+    display: block;
+    position: sticky;
+    top: 0;
+    padding: 1px;
+    height: 70px;
+    background-color: rgba(40, 116, 240, 255);
+  }
+  .resnav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .resnav ul li {
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+  }
+  .resnav a {
+    text-decoration: none;
+    color: white;
+  }
+  .resnav ul li:hover {
+    font-weight: 600;
+  }
+  .menu {
+    grid-auto-flow: column;
+    overflow-x: auto;
+    gap: 5px;
+  }
+  .footer {
+    gap: 5px;
+    font-size: 10px;
+  }
+  hr {
+    margin-top: 30px;
+  }
+  .last {
+    gap: 1px;
+  }
+  .support {
+    gap: 1px;
+  }
+  .supportul {
+    margin-left: -20px;
+  }
+  .footer h1 {
+    font-size: 15px;
+  }
+  .last button {
+    margin-left: 100px;
+    width: 120px;
+  }
+  .last {
+    font-size: 10px;
+  }
+}

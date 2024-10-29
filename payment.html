@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="payment.css" />
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+  </style>
+  <script
+    src="https://kit.fontawesome.com/7cc9e8c9cc.js"
+    crossorigin="anonymous"
+  ></script>
+  <body>
+    <!-------------------------------------------navbar--------------->
+    <nav>
+      <ul>
+        <li>
+          <a href="flipkart.html"
+            ><img src="./image/logowhite.png" alt="" / height="50px"
+            width="150px"></a
+          >
+        </li>
+        <li>
+          <a href="login.html"
+            ><i class="fa-solid fa-user fa-lg"></i>&nbsp;&nbsp;&nbsp;Sharad</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <!----------------------------------------cart------------>
+    <h1 class="heading" align="center">Payment Details</h1>
+    <div class="cart">
+      <div class="left">
+        <form action="">
+          <input type="radio" name="pay" />
+          <label for="">UPI</label>
+          <br /><br />
+          <input
+            type="text"
+            placeholder="Enter your UPI ID"
+            style="height: 40px"
+          />
+          <br /><br />
+          <input type="radio" name="pay" />
+          <label for="">Credit/Debit/ATM Card</label>
+          <br /><br />
+
+          <!-------------------------------------credit------------>
+
+          <div class="card">
+            <div class="visa_logo">
+              <img
+                src="https://raw.githubusercontent.com/muhammederdem/credit-card-form/master/src/assets/images/visa.png"
+                alt=""
+              />
+            </div>
+            <div class="visa_info">
+              <img
+                src="https://raw.githubusercontent.com/muhammederdem/credit-card-form/master/src/assets/images/chip.png"
+                alt=""
+              />
+              <p>
+                <input
+                  type="tel"
+                  placeholder=" - - - - "
+                  maxlength="4"
+                  style="width: 60px; height: 30px"
+                />&nbsp;&nbsp;<input
+                  type="tel"
+                  placeholder=" - - - - "
+                  maxlength="4"
+                  style="width: 60px; height: 30px"
+                />&nbsp;&nbsp;<input
+                  type="tel"
+                  placeholder=" - - - - "
+                  maxlength="4"
+                  style="width: 60px; height: 30px"
+                />&nbsp;&nbsp;<input
+                  type="tel"
+                  placeholder=" - - - - "
+                  maxlength="4"
+                  style="width: 60px; height: 30px"
+                />
+              </p>
+            </div>
+            <div class="visa_crinfo">
+              <p><input type="month" style="width: 90px; height: 30px" /></p>
+              <p>Sharad Mishra</p>
+            </div>
+          </div>
+
+          <!-------------------------------------------credit------------>
+          <br /><br />
+          <input type="radio" name="pay" required />
+          <label for="">Cash On Delivery(COD)</label>
+        </form>
+      </div>
+      <div class="right">
+        <div class="right1">
+          <h1>Price Details</h1>
+          <p>
+            Price
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            ₹64,999
+          </p>
+          <p>
+            Delivery Charges
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Free
+          </p>
+          <p>
+            Packing Charges
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            ₹99
+          </p>
+          <hr />
+          <h2>Total Payable &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₹65,098</h2>
+        </div>
+        <div class="right2">
+          <p>
+            <i
+              class="fa-solid fa-shield-halved fa-2xl"
+              style="color: #6c717a"
+            ></i>
+            Safe and Secure Payments. Easy Returns. 100% Authentic Products.
+          </p>
+        </div>
+        <div class="right3"></div>
+      </div>
+    </div>
+    <a href="sucess.html"><button class="submit">Place Order</button></a>
+  </body>
+  <div style="height: 50px"></div>
+</html>
